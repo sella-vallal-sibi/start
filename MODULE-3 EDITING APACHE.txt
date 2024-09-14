@@ -1,0 +1,31 @@
+Step 1: Get inside the docker container 
+docker exec -it <container id> /bin/bash
+
+Step 2: list the components 
+ls -lrt
+
+Step 3: Change the domain	
+cd htdocs/
+
+Step 4: list the components 
+ls -lrt
+
+Step 5: Check the Index file
+cat index.html
+
+Step 6: Edit the VIM File
+vi index.html
+
+Step 7:update the tools
+
+apt-get update
+
+Step 8: Install VIM
+apt install -y vim
+
+Step 9: Edit the VIM File
+vi index.html
+
+esc:wq!
+
+exit
